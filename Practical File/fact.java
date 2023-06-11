@@ -6,8 +6,8 @@ public class fact {
 
         int result = factorial(num);
 
-        System.out.println("Tassu Agarwal");
-        System.out.println("09429802021");
+        System.out.println("Aayush Upadhyay");
+        System.out.println("09929802021");
         System.out.println("Factorial of " + num + " is " + result);
 
     }
