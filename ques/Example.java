@@ -6,8 +6,8 @@ class Animal {
     }
 
     public void eat() {
-        System.out.println("Tassu Agarwal");
-        System.out.println("09429802021");
+        System.out.println("Aayush Upadhyay");
+        System.out.println("09929802021");
         System.out.println("The animal is eating.");
     }
 }
@@ -37,7 +37,7 @@ class Cat extends Animal {
 
 public class Example {
     public static void main(String[] args) {
-        Cat cat = new Cat("Oii oiii", 3);
+        Cat cat = new Cat("bhaw bhaw", 3);
         cat.eat();
         cat.meow();
         cat.display();

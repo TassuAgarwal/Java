@@ -60,8 +60,8 @@ public class ques15 {
         Rectangle r = new Rectangle(4, 5);
         Square s = new Square(2);
 
-        System.out.println("Tassu Agarwal");
-        System.out.println("09429802021");
+        System.out.println("Aayush Upadhyay");
+        System.out.println("09929802021");
         System.out.println("Circle area: " + c.area());
         System.out.println("Circle perimeter: " + c.perimeter());
         System.out.println("Rectangle area: " + r.area());

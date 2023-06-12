@@ -14,8 +14,8 @@ public class accounts {
     public void withdrawl(double amount) {
         if (amount <= balance) {
             balance -= amount;
-            System.out.println("Tassu Agarwal");
-            System.out.println("09429802021");
+            System.out.println("Aayush Upadhyay");
+            System.out.println("09929802021");
             System.out.println("Withdrawl Successful . New Balance: " + balance);
         } else {
             System.out.println("Insufficent funds. Withdrawl unsuccesful.");

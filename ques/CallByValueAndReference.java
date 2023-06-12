@@ -3,14 +3,14 @@ public class CallByValueAndReference {
     // Call by value example
     public static void increment(int x) {
         x++;
-        System.out.println("Tassu Agarwal");
-        System.out.println("09429802021");
+        System.out.println("Aayush Upadhyay");
+        System.out.println("09929802021");
         System.out.println("Inside increment method, x = " + x);
     }
 
     // Call by reference example
     public static void changeName(String[] arr) {
-        arr[0] = "Tassu";
+        arr[0] = "Aayush";
         System.out.println("Inside changeName method, name = " + arr[0]);
     }
 
@@ -21,7 +21,7 @@ public class CallByValueAndReference {
         System.out.println("Outside increment method, a = " + a);
 
         // Call by reference example
-        String[] names = { "Tassu Agarwal" };
+        String[] names = { "Aayush" };
         changeName(names);
         System.out.println("Outside changeName method, name = " + names[0]);
     }
