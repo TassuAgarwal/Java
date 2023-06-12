@@ -1,3 +1,5 @@
+import java.awt.Component;
+
 class Box {
     private double height;
     private double width;
@@ -17,6 +19,10 @@ class Box {
 
     double volume() {
         return height * width * depth;
+    }
+
+    public static Component createVerticalStrut(int i) {
+        return null;
     }
 }
 
